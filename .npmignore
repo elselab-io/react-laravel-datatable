@@ -1,0 +1,35 @@
+# Source files
+src/
+examples/
+node_modules/
+
+# Development files
+.git/
+.gitignore
+rollup.config.js
+tsconfig.json
+.eslintrc*
+jest.config*
+
+# Documentation (keep README.md)
+USAGE_EXAMPLES.md
+
+# Build artifacts that shouldn't be published
+*.log
+*.tgz
+.DS_Store
+.env*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
